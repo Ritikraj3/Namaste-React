@@ -4,7 +4,8 @@
   "description": "This is Namaste React",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   "author": "Ritik",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "parcel": "^2.15.2"
   },
   "dependencies": {
     "react": "^19.1.0",
